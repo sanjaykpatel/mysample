@@ -1,0 +1,16 @@
+git init
+git checkout -b sanjaytest
+git remote add origin https://github.com/sanjaykpatel/mysample.git
+git remote
+git remote -v
+< Add 2 files in local folder .gitignore and information.txt >
+< git add -A >
+git commit -m "first commit"
+git push -u origin sanjaytest
+
+==================================================================
+
+After installing git
+git config --global user.name "your name"
+git config --global user.email "your email"
+git config --global user.email   -- to check whether email was set or not
